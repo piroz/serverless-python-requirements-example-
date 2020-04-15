@@ -5,7 +5,7 @@ plugins:
 custom:
   region: ap-northeast-1
   pythonRequirements:
-    usePipenv: false
+    usePipenv: true
     dockerizePip: true
     slim: true
     layer: true
