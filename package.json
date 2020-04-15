@@ -1,0 +1,23 @@
+{
+  "name": "serverless-sagemaker-layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "cd layer_requirements; sls deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/qri-murakami/serverless-sagemaker-layer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/qri-murakami/serverless-sagemaker-layer/issues"
+  },
+  "homepage": "https://gitlab.com/qri-murakami/serverless-sagemaker-layer#readme",
+  "devDependencies": {
+    "serverless": "^1.67.3",
+    "serverless-python-requirements": "^5.1.0"
+  }
+}
